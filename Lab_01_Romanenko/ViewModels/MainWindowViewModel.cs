@@ -71,6 +71,7 @@ namespace Lab_01_Romanenko.ViewModels
                 {
                     //async proof
                     Thread.Sleep(1000);
+                    
                     AgeToDisplay = $"{AstroDate.CalculateAge()} y. o.";
                     WesternToDisplay = AstroDate.CalculateWestern();
                     ChineseToDisplay = AstroDate.CalculateChinese();
